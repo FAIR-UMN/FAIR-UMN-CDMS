@@ -1,4 +1,4 @@
-# FAIR-UMN: Identifying Interaction Location in SuperCDMS Detectors
+# FAIR-UMN-CDMS: Identifying Interaction Location in SuperCDMS Detectors
 
 
 
