@@ -16,7 +16,7 @@ This folder contains Python code/Jupyter notebooks for deep neural network model
 
 ## The Deep Neural Network Model
 
-We formulate the problem as a [regression problem](https://wiki2.org/en/Regression_analysis) in which we want the DNN model to learn a function that can map the features to its corresponding positions/targets. The detailed design of our DNN model can be found in the [complementary document](https://github.com/ml-deepai/FAIR-UMN/blob/main/doc/FAIR%20Document%20-%20Identifying%20Interaction%20Location%20in%20SuperCDMS%20Detectors.pdf). In here, we merely briefly describe the important hyper-parameters we used in training the DNN models. 
+We formulate the problem as a [regression problem](https://wiki2.org/en/Regression_analysis) in which we want the DNN model to learn a function that can map the features to its corresponding positions/targets. The detailed design of our DNN model can be found in the [complementary document](https://github.com/FAIR-UMN/FAIR-UMN-CDMS/blob/main/doc/FAIR%20Document%20-%20Identifying%20Interaction%20Location%20in%20SuperCDMS%20Detectors.pdf). In here, we merely briefly describe the important hyper-parameters we used in training the DNN models. 
 
 - *normalization_type*:  the method used to normalize the dataset; it should be selected from { 'StandardScaler', 'MinMaxScaler'}. The details for these normalization methods can be found [here](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.preprocessing).
 - *layer_num*: the hidden layers for the DNN model; it can be any  positive integer number. But please keep in mind that a very large *layer_num* means a more complicated neural network which may need longer training time and at the same time may increase the risk of overfitting. Therefore, it should be properly set according to the complicity of tasks. In our demo example, it is set to be 2.
@@ -37,7 +37,7 @@ We formulate the problem as a [regression problem](https://wiki2.org/en/Regressi
 
 
 
-For more details about the neural network model we used and its performance results, please check our [complementary document](https://github.com/ml-deepai/FAIR-UMN/blob/main/doc/FAIR%20Document%20-%20Identifying%20Interaction%20Location%20in%20SuperCDMS%20Detectors.pdf). 
+For more details about the neural network model we used and its performance results, please check our [complementary document](https://github.com/FAIR-UMN/FAIR-UMN-CDMS/blob/main/doc/FAIR%20Document%20-%20Identifying%20Interaction%20Location%20in%20SuperCDMS%20Detectors.pdf). 
 
 
 
