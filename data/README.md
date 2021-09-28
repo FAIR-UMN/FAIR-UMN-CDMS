@@ -25,7 +25,7 @@ This folder contains Python code/Jupyter notebooks for data preprocessing, inclu
 
 ## The Dataset 
 
-In total, we have 13 different positions (targets) in our dataset,of which the details are summarized in Table 1. For each sample, we extract 19 informative features (see our [complementary document](https://www.overleaf.com/project/60db4e3f24f55f3c4f43e993) for details), including:
+In total, we have 13 different positions (targets) in our dataset,of which the details are summarized in Table 1. For each sample, we extract 19 informative features (see our [complementary document](https://github.com/FAIR-UMN/FAIR-UMN-CDMS/blob/main/doc/FAIR%20Document%20-%20Identifying%20Interaction%20Location%20in%20SuperCDMS%20Detectors.pdf) for details), including:
 
 - **P[B,C,D,F]start**, the time at which the pulse rises to 20% of its peak with respect to the Channel A;
 
@@ -80,7 +80,7 @@ Given the dataset we have described above, the problems are:
 
   
 
-For more details about the problems and the neural network model we used, please check our [complementary document](https://github.com/ml-deepai/FAIR-UMN/blob/main/doc/FAIR%20Document%20-%20Identifying%20Interaction%20Location%20in%20SuperCDMS%20Detectors.pdf) and the Jupyter notebooks in [src](https://github.com/ml-deepai/FAIR-UMN/tree/main/src). 
+For more details about the problems and the neural network model we used, please check our [complementary document](https://github.com/FAIR-UMN/FAIR-UMN-CDMS/blob/main/doc/FAIR%20Document%20-%20Identifying%20Interaction%20Location%20in%20SuperCDMS%20Detectors.pdf) and the Jupyter notebooks in [src](https://github.com/FAIR-UMN/FAIR-UMN-CDMS/tree/main/src). 
 
 
 
