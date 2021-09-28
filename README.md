@@ -6,9 +6,9 @@
 
 This github repository contains the code for analyzing and modeling the CDMS data. The code is written in Python. In most cases, we provide a Jupyter notebook with inline descriptions while in some cases (e.g., the model and its  auxiliary functions) we provide a Jupyter notebook and python scripts. 
 
-Besides this github repository, we have a complementary document that provides background for this problem, describes the purposes of this project,  and introduces the dataset and neural network models in more details. The document can be [downloaded here](https://github.com/ml-deepai/FAIR-UMN/blob/main/doc/FAIR%20Document%20-%20Identifying%20Interaction%20Location%20in%20SuperCDMS%20Detectors.pdf). 
+Besides this github repository, we have a complementary document that provides background for this problem, describes the purposes of this project,  and introduces the dataset and neural network models in more details. The document can be [downloaded here](https://github.com/FAIR-UMN/FAIR-UMN-CDMS/blob/main/doc/FAIR%20Document%20-%20Identifying%20Interaction%20Location%20in%20SuperCDMS%20Detectors.pdf). 
 
-We also have a project web-page which can be accessed via [this link](https://ml-deepai.github.io/FAIR-UMN/).
+We also have a project web-page which can be accessed via [this link](https://fair-umn.github.io/FAIR-UMN-CDMS/).
 
 
 
