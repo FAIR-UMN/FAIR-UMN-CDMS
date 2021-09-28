@@ -25,7 +25,7 @@ After running *1_statistical_info.ipynb*， you will get the result in `stat_res
 
 
 
-For more details about the neural network model we used and its performance results, please check our [complementary document](https://github.com/ml-deepai/FAIR-UMN/blob/main/doc/FAIR%20Document%20-%20Identifying%20Interaction%20Location%20in%20SuperCDMS%20Detectors.pdf). 
+For more details about the neural network model we used and its performance results, please check our [complementary document](https://github.com/FAIR-UMN/FAIR-UMN-CDMS/blob/main/doc/FAIR%20Document%20-%20Identifying%20Interaction%20Location%20in%20SuperCDMS%20Detectors.pdf). 
 
 
 
