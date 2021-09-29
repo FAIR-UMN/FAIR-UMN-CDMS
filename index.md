@@ -2,7 +2,7 @@
 
 Welcome!
 
-This is the project web-page for our project---FAIR-UMN-CDMS: Identifying Interaction Location inSuperCDMS Detectors.
+This is the project web-page for our project---FAIR-UMN-CDMS: Identifying Interaction Location in SuperCDMS Detectors.
 
 In this project, we address the problem of accurately reconstruct the locations of interactions in theSuperCDMS detectors using machine learning methods. The approach is to use data collected with aradioactive source at known locations to train and qualify machine learning models.
 
