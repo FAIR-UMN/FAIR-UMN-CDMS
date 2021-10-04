@@ -72,6 +72,8 @@ We provided two options for users to set up the execution environment:
 - we provide the envrionment YML file so that one can set up the execution environment with it directly;
 - we provide the detailed steps and commands to install each required package. 
 
+Before starting, be sure to have the [git](https://git-scm.com/) and [Anaconda3](https://www.anaconda.com/products/individual) installed (alternatively, you can also use [Miniconda3](https://docs.conda.io/en/latest/miniconda.html) instead of[Anaconda3](https://www.anaconda.com/products/individual), which has been tested by us and works well for our demo).
+
 ### Set up from the YML file
 
 1. Get and clone the github repository:
