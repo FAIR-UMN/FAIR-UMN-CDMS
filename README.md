@@ -149,7 +149,7 @@ Before starting, be sure to have the [git](https://git-scm.com/) and [Anaconda3]
    
 *Note*: 
 1) To install Anaconda, please follow its [official guideline](https://docs.anaconda.com/anaconda/user-guide/getting-started/). For example, to install Anaconda3 on Linux, check [here](https://docs.anaconda.com/anaconda/install/linux/); to install Anaconda3 on Windows, check [here](https://docs.anaconda.com/anaconda/install/windows/); and to install Anaconda3 on macOS, check [here](https://docs.anaconda.com/anaconda/install/mac-os/).
-3) We test our model on Ubuntu 20.04.
+3) We test our model on Ubuntu, Windows, and macOS.
 
 
 
