@@ -154,7 +154,7 @@ def display_train_loss(train_loss,loss_file='training_results/1_loss.png'):
     plt.ylabel('RMSE')
     plt.title('Training Loss')
     plt.legend()
-    plt.savefig(loss_file)
+    plt.savefig(loss_file,dpi=300)
     plt.close()
 
 def display_RMSE(train_rmse, val_rmse, print_step, loss_file='training_results/1_loss.png'):
@@ -164,7 +164,7 @@ def display_RMSE(train_rmse, val_rmse, print_step, loss_file='training_results/1
     plt.ylabel('RMSE')
     plt.title('Training vs. Validation')
     plt.legend()
-    plt.savefig(loss_file)
+    plt.savefig(loss_file,dpi=300)
     plt.close()
 
 
