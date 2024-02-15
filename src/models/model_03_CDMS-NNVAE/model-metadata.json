@@ -1,0 +1,23 @@
+{
+   "genInfo": "\nThis models represents the trained parameters for a Variational Auto-Encoder for the superCDMS prototype dataset. \n",
+   "data_ID": "https://github.com/FAIR-UMN/FAIR-UMN-CDMS/blob/main/data/processed_csv/processed_combined.csv?raw=true",
+   "model_ID": "",
+   "model_keys": {
+      "epoch": "The iteration ID when this model was saved",
+      "loss": "The value of training loss when this model was saved",
+      "encoder_state_dict": "parameters of the Encoder",
+      "decoder_state_dict": "parameters of the Decoder",
+      "optimizer_state_dict": "parameters of the optimizer"
+   },
+   "hyperparameters": {
+      "n_epochs": 1000,
+      "batch_size": 128,
+      "optimizer": "Adam",
+      "learning_rate": 0.001,
+      "n_hidden_layers_encoder": 2,
+      "n_hidden_layers_decoder": 2,
+      "n_nodes_in hidden_layers_encoder": 32,
+      "n_nodes_in hidden_layers_decoder": 32,
+      "activation": "Sigmoid"
+   }
+}
