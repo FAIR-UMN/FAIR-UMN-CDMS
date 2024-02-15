@@ -152,8 +152,20 @@ Before starting, be sure to have the [git](https://git-scm.com/) and [Anaconda3]
 3) We test our model on Ubuntu, Windows, and macOS.
 
 
+## Additional FAIR Exercies
+
+Different types of ML approaches to this regression problem can be found in a folder labeled `Excercies`. This folder primarily containes Jupyter notebooks which contain detailed explanations. The notebooks were originally authored by Avik Roy ([original repo](https://github.com/yorkiva/FAIR-Exercises)), which have now been merged with the FAIR-UMN-CDMS repository. To run the notebooks, one would have to setup a conda environment using the above instructions. 
+
+
+## Convolutional Neural Networks
+
+Convolution Neural Networks can also used to solve this regression problem. The code was originally developed by Aidan Chambers ([original repo](https://github.com/aidan-dc)). This code uses `Tensorflow` libraries instead of pytorch. To setup an environment on linux, one can use `fair_tf_cpu.yml` instead of `fair_cpu.yml` using the instruction mentioned above. In case one is using Mac M1 (ARM 64 Arch), `fair_tf_m1.yml` can be used to setup the environment.
+
+To build and test CNN, one can use the notebook titled `09-CNN-CDMS-FAIR.yml`. This notebook contains instructions to process the dataset, bbuild CNN models and run the training.
+
 
 ## Support or Contact
 
 If you need any help, please feel free to contact us!  
 
+Bhargav Joshi (joshib@umn.edu)
