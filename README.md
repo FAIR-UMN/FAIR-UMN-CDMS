@@ -17,6 +17,10 @@ This repository includes the following folders and/or files. For *folders*, we p
 ```
 .
 ├── data                                  /* All you need to preprocess the dataset.
+│   └── reduced_dataset
+│       └── reduced_data.csv              /* Dataset with reduced set of features
+│   └── full_dataset
+│       └── full_data.csv                 /* Dataset with full 85 features
 |   ├── raw_txt                           /* Original dataset in the txt format.
 |   ├── processed_csv                     /* Extracted features in the csv format.
 |   ├── dnn_dataset                       /* Training/validation/test data for deep neural network models.
@@ -26,6 +30,18 @@ This repository includes the following folders and/or files. For *folders*, we p
 |   ├── 3_features_analysis.ipynb         /* Jupyter notebook to visualize the distribution of features (before/after normalization).     
 |   └──  README.md 
 |
+├── Exercises
+│   ├── 01-Intro2FAIR.ipynb               /* Introduction to F(indability)A(ccessability)I(nteroperability)R(eproducibility) principles
+│   ├── 02-FAIRCheck-MNIST.ipynb          /* Example of using FAIR standards on the MNIST dataset
+│   ├── 03-FAIRCheck-CDMS.ipynb           /* Application of FAIR principles to CDMS dataset
+│   ├── 04a-CDMS-LR.ipynb                 /* Linear Regression using `scikit` (part I) 
+│   ├── 04b-CDMS-LR-FAIR.ipynb            /* Linear Regression Model (part II)
+│   ├── 05a-CDMS-PCA.ipynb                /* Using Principal Component Analysis
+│   ├── 07a-CDMS_NNRegressor.ipynb        /* Using Multilayer Perceptrons (part I)
+│   ├── 07b-CDMS_NNRegressor-FAIR.ipynb   /* Using Multilayer Perceptrons (part I)
+│   ├── 08a-CDMS_NNVAE.ipynb              /* Introduction to Variational Autoencoders (NNVAE) (part I)
+│   ├── 08b-CDMS_NNVAE-FAIR.ipynb         /* NNVAE (part II)
+│   └── 09-CNN-CDMS-FAIR.ipynb            /* Convolutional Neural Networks (CNNs)
 |
 ├── src                                   /* All you need to train the deep neural network (DNN) models.
 |   ├── DNN_Regression                      
@@ -154,7 +170,7 @@ Before starting, be sure to have the [git](https://git-scm.com/) and [Anaconda3]
 
 ## Additional FAIR Exercies
 
-Different types of ML approaches to this regression problem can be found in a folder labeled `Excercies`. This folder primarily containes Jupyter notebooks which contain detailed explanations. The notebooks were originally authored by Avik Roy ([original repo](https://github.com/yorkiva/FAIR-Exercises)), which have now been merged with the FAIR-UMN-CDMS repository. To run the notebooks, one would have to setup a conda environment using the above instructions. 
+Different types of ML approaches to this regression problem can be found in a folder labeled `Exercises`. This folder primarily containes Jupyter notebooks which contains detailed explanations for each method. The notebooks were originally authored by Avik Roy ([original repo](https://github.com/yorkiva/FAIR-Exercises)), which have now been merged with the FAIR-UMN-CDMS repository. To run the notebooks, one would have to setup a conda environment using the above instructions. 
 
 
 ## Convolutional Neural Networks
