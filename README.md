@@ -112,9 +112,7 @@ Before starting, be sure to have the [git](https://git-scm.com/) and [Anaconda3]
 
    To add the conda environment to the jupyter kernel, run
 
-   ```
-   python -m ipykernel install --name fair_gpu --user
-   ```
+   `python -m ipykernel install --name fair_gpu --user`
 
 6.  Activate conda environment:
     
