@@ -110,13 +110,19 @@ Before starting, be sure to have the [git](https://git-scm.com/) and [Anaconda3]
    
     CPU version run: `conda env create -f fair_cpu.yml`
 
-5.  Activate conda environment:
+   To add the conda environment to the jupyter kernel, run
+
+   ```
+   python -m ipykernel install --name fair_gpu --user
+   ```
+
+6.  Activate conda environment:
     
     `conda activate fair_gpu` (If you choose the GPU version in Step4)
     
     `conda activate fair_cpu` (If you choose the CPU version in Step4)
 
-6. You are now ready to explore the codes/models! Please remember to follow this order: *data*->*src*->*analysis*
+7. You are now ready to explore the codes/models! Please remember to follow this order: *data*->*src*->*analysis*
 
 
 
